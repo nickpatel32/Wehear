@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Flask==2.0.1
 Jinja2==3.0.1
 joblib==1.0.1
@@ -9,4 +10,17 @@ xgboost==1.4.2
 gunicorn==20.1.0
 itsdangerous==2.0.1
 MarkupSafe==2.0.1
+=======
+Flask==2.0.1
+Jinja2==3.0.1
+joblib==1.0.1
+matplotlib==3.4.2
+numpy==1.21.0
+pandas==1.2.5
+scikit-learn==0.24.2
+xgboost==1.4.2
+gunicorn==20.1.0
+itsdangerous==2.0.1
+MarkupSafe==2.0.1
+>>>>>>> 454319f844750d0b987baaeaa27f1643d05587ea
 Werkzeug==2.0.1
