@@ -61,7 +61,7 @@ milk_op_map = {value: key for key, value in milk_map.items()}
 
 # model = pickle.load(open('final_model.pkl', 'rb'))
 tab_model = load('tab_model.pkl')
-milk_model = load('milk_model.pkl')
+milk_model = load('milk_model_final.pkl')
 
 
 # default page of our web-app
