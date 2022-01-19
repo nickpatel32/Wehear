@@ -36,24 +36,24 @@ tab_map = {
 }
 
 milk_map = {
-    'shakti_6ml': 0,
-    'shakti_7ml': 1,
-    'shakti_8ml': 2,
-    'shakti_9ml': 3,
-    'shakti_10ml': 4,
-    'gold_6ml': 5,
-    'gold_7ml': 6,
-    'gold_8ml': 7,
-    'gold_9ml': 8,
-    'gold_10ml': 9,
-    'taza_10ml': 10,
-    'taza_8ml': 11,
-    'taza_9ml': 12,
-    'taza_7ml': 13,
-    'taza_6ml': 14,
-    'taza_5ml': 15,
-    'shakti_5ml':16,
-    'gold_5ml':17
+     "Gold_50%":0 ,
+     "Gold_60%":1,
+     "Gold_70%":2,
+     "Gold_80%":3,
+     "Gold_90%":4,
+     "Gold_100%":5,
+     "Taaza_50%":6,
+     "Taaza_60%":7,
+     "Taaza_70%":8,
+     "Taaza_80%":9,
+     "Taaza_90%":10,
+     "Taaza_100%":11,
+     "Shakti_50%":12,
+     "Shakti_60%":13,
+     "Shakti_70%":14,
+     "Shakti_80%":15,
+     "Shakti_90%":16,
+     "Shakti_100%":17
 }
 
 tab_op_map = {value: key for key, value in tab_map.items()}
@@ -61,7 +61,7 @@ milk_op_map = {value: key for key, value in milk_map.items()}
 
 # model = pickle.load(open('final_model.pkl', 'rb'))
 tab_model = load('tab_model.pkl')
-milk_model = load('milk_model_final.pkl')
+milk_model = load('milk_model.pkl')
 
 
 # default page of our web-app
