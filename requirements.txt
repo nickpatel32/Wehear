@@ -10,6 +10,7 @@ xgboost==1.4.2
 gunicorn==20.1.0
 itsdangerous==2.0.1
 MarkupSafe==2.0.1
+python-3.9.10
 =======
 Flask==2.0.1
 Jinja2==3.0.1
@@ -22,5 +23,6 @@ xgboost==1.4.2
 gunicorn==20.1.0
 itsdangerous==2.0.1
 MarkupSafe==2.0.1
+python-3.9.10
 >>>>>>> 454319f844750d0b987baaeaa27f1643d05587ea
 Werkzeug==2.0.1
