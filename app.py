@@ -1,4 +1,3 @@
-# import libraries
 import numpy as np
 from flask import Flask, request, jsonify, render_template
 import pickle
@@ -12,30 +11,31 @@ app = Flask(__name__)
 # Mapping Dictionary
 
 tab_map = {
-    "combiflame": 0,
-    "dolo_650": 1,
-    "neurobin_vit_b_pink_red": 2,
-    "ecosprin": 3,
-    "crocin": 4,
-    "paracetemol 500mg": 5,
-    "danp": 6,
-    "lth_unison": 7,
-    "lemolate_gold": 8,
-    "paracetamol_650mg": 9,
-    "Vita C":10,
-    "Diclowin T":11,
-    "Ratntac":12,
-    "Vomistop":13,
-    "Lopamid":14,
-    "Metacin":15,
-    "Brompeph":16,
-    "CTZ":17,
-    "Zgfoly":18,
-    "Asirst":19,
-    "Spasmani":20
+     "combiflame": 0,
+     "dolo_650": 1,
+     "neurobin_vit_b_pink_red": 2,
+     "ecosprin": 3,
+     "crocin": 4,
+     "paracetemol 500mg": 5,
+     "danp": 6,
+     "lth_unison": 7,
+     "lemolate_gold": 8,
+     "paracetamol_650mg": 9,
+     "Vita C":10,
+     "Diclowin T":11,
+     "Ratntac":12,
+     "Vomistop":13,
+     "Lopamid":14,
+     "Metacin":15,
+     "Brompeph":16,
+     "CTZ":17,
+     "Zgfoly":18,
+     "Asirst":19,
+     "Spasmani":20
 }
 
 milk_map = {
+    
      "Gold_50%":0 ,
      "Gold_60%":1,
      "Gold_70%":2,
@@ -58,8 +58,7 @@ milk_map = {
 
 tab_op_map = {value: key for key, value in tab_map.items()}
 milk_op_map = {value: key for key, value in milk_map.items()}
-
-# model = pickle.load(open('final_model.pkl', 'rb'))
+##
 tab_model = load('tab_model.pkl')
 milk_model = load('milk_model.pkl')
 
@@ -101,4 +100,4 @@ def prediction_tab_api():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+     app.run(debug=True)
